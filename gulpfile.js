@@ -12,9 +12,7 @@ elixir(function(mix) {
     mix.sass('main.scss')
         .exec('./vendor/bin/jigsaw build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
-            port: port,
-            server: { baseDir: 'build_' + env },
-            proxy: null,
+            proxy: 'http://' + env + '.apptimists.dev',
             files: [ 'build_' + env + '/**/*' ]
         });
 });
