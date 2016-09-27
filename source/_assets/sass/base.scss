@@ -1,0 +1,107 @@
+//= Navbar
+.navbar-transparent {
+  border-top: 7px solid $color-orange;
+}
+
+//= Text
+.text-highlight {
+  color: $color-orange;
+  font-weight: 400;
+}
+.text-light {
+  font-weight: 200;
+}
+.text-blue {
+  color: $color-blue;
+}
+.text-bold {
+  font-weight: 500;
+}
+
+//= Backgrounds
+.bg-orange {
+  background: $color-orange;
+  color: $color-light;
+}
+.bg-dark {
+  background: $color-dark;
+  color: $color-light;
+}
+.bg-light {
+  background: $color-light;
+  color: $color-dark;
+}
+.bg-grey {
+  background: $color-grey;
+}
+.bg-love {
+  background: $color-love;
+  color: $color-light;
+}
+.bg-love .text-highlight {
+  color: $color-anthracite;
+}
+.bg-team {
+  background-image: url('../img/team.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: $color-white;
+}
+.bg-team .overlay {
+  background: transparentize($color-orange, 0.2);
+  padding-top: 50px;
+  padding-bottom: 300px;
+}
+.bg-team .text-highlight {
+  color: $color-white;
+}
+
+//= Buttons
+.btn-border {
+  border: 1px solid $color-dark;
+  color: $color-dark;
+  border-radius: 8px;
+}
+.btn-border-light {
+  border: 1px solid $color-light;
+  color: $color-light;
+  border-radius: 8px;
+}
+.btn-border:hover {
+  background-color: $color-orange;
+  color: $color-light;
+  border-color: $color-orange;
+}
+.btn-border-light:hover {
+  background-color: $color-light;
+  color: $color-orange;
+  border-color: $color-light;
+}
+.btn-border-grey {
+  border: 1px solid darken($color-grey, 20%);
+  color: darken($color-grey, 20%);
+  border-radius: 8px;
+}
+.btn-border-grey:hover {
+  border-color: $color-dark;
+  color: $color-dark;
+}
+
+//= Index
+//== News bar
+#news .label {
+  color: $color-dark;
+  border: 1px solid $color-dark;
+  border-radius: 8px;
+  font-weight: 300;
+}
+.news-title { font-weight: 400; }
+#news a, #news a:hover { font-weight: 400; color: $color-dark; }
+
+//== Social section
+#social i { font-size: 48px; padding-left: 12px; padding-right: 12px; }
+#social i.fa-twitter:hover { color: $color-blue; }
+#social i.fa-instagram:hover { color: $color-red; }
+#social i.fa-github:hover { color: $color-dark; }
+#social i.fa-linkedin:hover { color: $color-blue; }

@@ -1,0 +1,39 @@
+//= General
+//== Colors
+$color-white: #FFFFFF;
+$color-orange: #EE8A4E;
+$color-anthracite: #323A45;
+$color-grey: #F4F4F4;
+$color-love: #DF3D82;
+$color-blue: #3D82DF;
+$color-green: #82DF3D;
+$color-red: #DF493D;
+$color-pink: #DF3DD3;
+$color-light: $color-white;
+$color-dark: $color-anthracite;
+
+//== Header
+$header-padding: 150px 0;
+
+//== Section
+$section-padding: 30px 0 !default;
+
+//== Footer
+$footer-padding: 50px 0;
+
+//= Bootstrap tweaks
+
+//== Brands
+$brand-primary: $color-orange;
+$brand-info: $color-orange;
+$brand-success: $color-green;
+$brand-warning: $color-pink;
+$brand-danger:  $color-red;
+
+//== Typography
+$font-family-sans-serif: "Helvetica Neue", sans-serif;
+$font-family-serif: Georgia, "Times New Roman", serif;
+$font-size-base: 16px;
+$headings-font-weight: 200;
+$line-height-base: 1.6;
+$text-color: #333333;
