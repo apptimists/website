@@ -45,7 +45,7 @@
                 <p class="lead">StauMobil is an easy-to-use application for iOS and Android showing traffic incidents around your area.</p>
                 <p>We built StauMobil because we hate it been stuck in traffic without knowning whats happening in front of us. Is there an accident or just too much cars on the highway? Follow <span class="text-bold">7 million</span> others and download
                     traffic updates around you.</p>
-                <a href="https://www.staumobilapp.com" class="btn btn-border-light">Visit staumobilapp.com</a>
+                <a href="http://www.staumobilapp.com" class="btn btn-border-light">Visit staumobilapp.com</a>
             </div>
         </div>
     </div>
