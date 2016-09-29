@@ -16,6 +16,44 @@
 
     <link rel="canonical" href="http://www.apptimists.com">
     <link rel="stylesheet" href="/css/main.css">
+
+    <script>
+        // Google Analytics
+        var gaProperty = 'UA-30097102-10';
+        if (gaProperty) {
+            (function(w, d, l, h, s) {
+                if (d.cookie.indexOf(s + '=true') > -1) {
+                    w[s] = true;
+                }
+                w.onhashchange = function() {
+                    if (l.href.indexOf("#google_optout") > -1) {
+                        d.cookie = s + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+                        w[s] = true;
+                        if (h.pushState) {
+                            h.pushState(null, null, '#');
+                        } else {
+                            l.hash = '#';
+                        }
+                    }
+                }
+            })(window, document, location, history, 'ga-disable-' + gaProperty);
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', gaProperty, 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('send', 'pageview');
+        }
+    </script>
 </head>
 
 <body>
@@ -49,6 +87,7 @@
                 <div class="col-md-8 text-left">
                     <ul class="list-inline">
                         <li><a href="/imprint">Imprint</a></li>
+                        <li><a href="/privacy">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 text-right">
