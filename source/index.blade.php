@@ -81,6 +81,8 @@
     </div>
 </section>
 
+<section id="instagram"></section>
+
 <section id="contact" class="bg-white pt-30 pb-0 text-center">
     <div class="container">
         <div class="row">

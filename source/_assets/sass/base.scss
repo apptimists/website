@@ -163,3 +163,23 @@
 #social i.fa-linkedin:hover {
     color: $color-blue;
 }
+//== Instagram feed
+
+#instagram {
+    height: 200px;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#instagram .feed {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#instagram .feed img {
+    vertical-align: top;
+}
