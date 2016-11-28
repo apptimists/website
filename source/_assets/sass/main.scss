@@ -3,6 +3,8 @@
  * Copyright 2012-2016 apptimists UG (haftungsbeschränkt)
  * Licensed under MIT (https://github.com/apptimists/website/LICENSE)
  */
+//= Google fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 //= Standard stuff
 @import "variables";
 //= Imports
@@ -16,8 +18,8 @@
 @import "node_modules/animate.css/source/fading_exits/fadeOutUp";
 @import "node_modules/animate.css/source/fading_exits/fadeOutLeft";
 @import "node_modules/animate.css/source/fading_exits/fadeOutRight";
+@import "node_modules/animate.css/source/attention_seekers/bounce";
 
 //= Styles
 @import "base";
-@import "blog";
 @import "mixins";

@@ -56,29 +56,40 @@
     </script>
 </head>
 
-<body>
+<body class="bg-grey">
     <a name="top"></a>
     @yield('body')
-    <footer class="bg-white pt-0 pb-30 text-center">
+    <footer class="bg-grey pt-0 pb-30 text-center">
         <div class="container">
 
             <hr class="mt-30 mb-30">
 
-            <div class="row">
-                <div class="col-md-8 text-left">
+            <div class="row hidden-xs">
+                <div class="col-md-4 text-left">
                     <ul class="list-inline">
                         <li><a href="{{ $asset_prefix }}/imprint">Imprint</a></li>
                         <li><a href="{{ $asset_prefix }}/privacy">Privacy</a></li>
                     </ul>
                 </div>
+                <div class="col-md-4 text-center">
+                    <p><span class="flag-icon flag-icon-de flag-icon-squared"></span> Made with <i class="fa fa-coffee"></i> in Germany.</p>
+                </div>
                 <div class="col-md-4 text-right">
                     <p><a href="#top" class="btn btn-xs btn-border-grey">To the top</a></p>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12 text-center">
+            <div class="row visible-xs">
+                <div class="col-xs-12 text-center">
+                    <ul class="list-inline">
+                        <li><a href="{{ $asset_prefix }}/imprint">Imprint</a></li>
+                        <li><a href="{{ $asset_prefix }}/privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 text-center">
                     <p><span class="flag-icon flag-icon-de flag-icon-squared"></span> Made with <i class="fa fa-coffee"></i> in Germany.</p>
+                </div>
+                <div class="col-xs-12 text-center">
+                    <p><a href="#top" class="btn btn-xs btn-border-grey">To the top</a></p>
                 </div>
             </div>
         </div>

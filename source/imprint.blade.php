@@ -8,7 +8,6 @@
             <div class="col-md-8 col-md-offset-2">
                 <p>Dieses Impressum gilt für alle Webseiten und Online-Profile der apptimists UG (haftungsbeschränkt), u.a.:</p>
                 <ul class="list-unstyled">
-                    <li><a href="https://twitter.com/apptimists"><i class="fa fa-twitter"></i> Twitter</a></li>
                     <li><a href="https://instagram.com/apptimists"><i class="fa fa-instagram"></i> Instagram</a></li>
                     <li><a href="https://github.com/apptimists"><i class="fa fa-github"></i> GitHub</a></li>
                     <li><a href="https://linkedin.com/apptimists"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
@@ -70,6 +69,7 @@
                 <p class="text-bold">Bilder</p>
                 <ul class="list-unstyled">
                     <li><a target="_blank" href="https://stock.adobe.com">Adobe Stock</a></li>
+                    <li><a target="_blank" href="http://adamwhitcroft.com/wirekit/">WireKit</a></li>
                 </ul>
                 <p class="text-bold">Bibliotheken</p>
                 <ul class="list-unstyled">
