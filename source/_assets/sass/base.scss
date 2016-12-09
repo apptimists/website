@@ -143,6 +143,13 @@ p {
 #whatwedo-scroller:hover {
     text-decoration: none;
 }
+
+//== StauMobil section
+#staumobil .img-holder { margin: 0 auto; max-width: 450px; }
+@media (min-width: 768px) {
+    #staumobil .img-holder > img { margin-top: 70px; }
+}
+
 //== Social section
 
 #social {

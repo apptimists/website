@@ -1,15 +1,7 @@
 window.$ = window.jQuery = require('jquery');
-require('waypoints/lib/jquery.waypoints.js');
 
 (function() {
     "use strict";
-
-    $('.fadeInLeft, .fadeInRight, .fadeInUp').css('opacity', 0).waypoint(function() {
-        var $el = $(this.element);
-        $el.addClass('animated');
-    }, {
-        offset: '100%'
-    });
 
     /**
      * Track outbound links in Google Analytics
