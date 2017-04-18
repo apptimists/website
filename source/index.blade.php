@@ -35,11 +35,11 @@
                 <p>We built <span class="text-bold">StauMobil</span> because we hate it been stuck in traffic without knowning whats happening in front of us. Is there an accident or just too much cars on the highway?<br/>Follow <span class="text-bold">7 million</span> others and download
                     traffic updates around you.</p>
                 <p class="mb-30">StauMobil is an easy-to-use application for iOS and Android showing traffic incidents around your area.</p>
-                <a href="http://www.staumobil.com" class="btn btn-border-light">Visit staumobil.com</a>
+                <a href="https://www.staumobil.com" class="btn btn-border-light">Visit staumobil.com</a>
             </div>
             <div class="col-md-4">
               <div class="img-holder">
-                <img class="img-responsive" src="../img/staumobil.png">
+                <img class="img-responsive" src="{{ $asset_prefix }}/img/staumobil.png">
               </div>
             </div>
         </div>

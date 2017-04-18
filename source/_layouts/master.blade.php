@@ -14,7 +14,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>{{ isset($title) ? $title : 'We are the apptimists' }}</title>
 
-    <link rel="canonical" href="http://www.apptimists.com">
+    <link rel="canonical" href="https://www.apptimists.com">
     <link rel="stylesheet" href="{{ $asset_prefix }}/css/main.css">
 
     <script>
