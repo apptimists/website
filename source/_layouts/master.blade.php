@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>{{ isset($title) ? $title : 'We are the apptimists' }}</title>
+    <title>{{ isset($page->title) ? $page->title : 'We are the apptimists' }}</title>
 
     <link rel="canonical" href="https://www.apptimists.com">
-    <link rel="stylesheet" href="{{ $asset_prefix }}/css/main.css">
+    <link rel="stylesheet" href="{{ $page->asset_prefix }}/css/main.css">
 
     <script>
         // Google Analytics
-        var gaProperty = '{{ $google_analytics }}';
+        var gaProperty = '{{ $page->google_analytics }}';
         if (gaProperty) {
             (function(w, d, l, h, s) {
                 if (d.cookie.indexOf(s + '=true') > -1) {
@@ -67,8 +67,8 @@
             <div class="row hidden-xs">
                 <div class="col-md-4 text-left">
                     <ul class="list-inline">
-                        <li><a href="{{ $asset_prefix }}/imprint">Imprint</a></li>
-                        <li><a href="{{ $asset_prefix }}/privacy">Privacy</a></li>
+                        <li><a href="{{ $page->asset_prefix }}/imprint">Imprint</a></li>
+                        <li><a href="{{ $page->asset_prefix }}/privacy">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 text-center">
@@ -81,8 +81,8 @@
             <div class="row visible-xs">
                 <div class="col-xs-12 text-center">
                     <ul class="list-inline">
-                        <li><a href="{{ $asset_prefix }}/imprint">Imprint</a></li>
-                        <li><a href="{{ $asset_prefix }}/privacy">Privacy</a></li>
+                        <li><a href="{{ $page->asset_prefix }}/imprint">Imprint</a></li>
+                        <li><a href="{{ $page->asset_prefix }}/privacy">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 text-center">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="{{ $asset_prefix }}/js/main.js"></script>
+    <script type="text/javascript" src="{{ $page->asset_prefix }}/js/main.js"></script>
 </body>
 
 </html>

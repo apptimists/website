@@ -39,7 +39,7 @@
             </div>
             <div class="col-md-4">
               <div class="img-holder">
-                <img class="img-responsive" src="{{ $asset_prefix }}/img/staumobil.png">
+                <img class="img-responsive" src="{{ $page->asset_prefix }}/img/staumobil.png">
               </div>
             </div>
         </div>
