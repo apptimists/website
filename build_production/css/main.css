@@ -12955,6 +12955,10 @@ p {
   color: #3D82DF;
 }
 
+#social i.fa-xing:hover {
+  color: #026466;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
