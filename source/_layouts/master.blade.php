@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>{{ isset($page->title) ? $page->title : 'We are the apptimists' }}</title>
+    <title>{{ isset($page['title']) ? $page['title'] : 'We are the apptimists' }}</title>
 
     <link rel="canonical" href="https://www.apptimists.com">
     <link rel="stylesheet" href="{{ $page->asset_prefix }}/css/main.css">

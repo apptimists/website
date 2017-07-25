@@ -1,3 +1,6 @@
+---
+title: apptimists - Imprint
+---
 @extends('_layouts.master') @section('body') @include('_layouts.navbar')
 <section class="bg-white pt-30 pb-30">
     <div class="container">
@@ -8,9 +11,10 @@
             <div class="col-md-8 col-md-offset-2">
                 <p>Dieses Impressum gilt für alle Webseiten und Online-Profile der apptimists UG (haftungsbeschränkt), u.a.:</p>
                 <ul class="list-unstyled">
-                    <li><a href="https://instagram.com/apptimists"><i class="fa fa-instagram"></i> Instagram</a></li>
-                    <li><a href="https://github.com/apptimists"><i class="fa fa-github"></i> GitHub</a></li>
-                    <li><a href="https://linkedin.com/apptimists"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://instagram.com/apptimists/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://github.com/apptimists/"><i class="fa fa-github"></i> GitHub</a></li>
+                    <li><a href="https://linkedin.com/company/apptimists/"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://xing.com/companies/apptimists/"><i class="fa fa-xing"></i> Xing</a></li>
                 </ul>
                 <p class="text-bold">Verantwortlicher für diese Webseite i.S.d. § 5 TMG</p>
                 <p>apptimists UG (haftungsbeschränkt)<br> Starterzentrum 1<br> Universität des Saarlandes<br> 66123 Saarbrücken<br> Deutschland

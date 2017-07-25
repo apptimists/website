@@ -1,3 +1,6 @@
+---
+title: apptimists - Privacy policy
+---
 @extends('_layouts.master') @section('body') @include('_layouts.navbar')
 <div class="bg-white pt-30 pb-30">
     <div class="container">
