@@ -130,6 +130,33 @@ p {
     border-color: $color-dark;
     color: $color-dark;
 }
+
+//= Labels
+.label-dark {
+    background-color: $color-dark;
+    color: $color-light;
+}
+.label-light {
+    background-color: $color-light;
+    color: $color-dark;
+}
+.label-pink {
+    background-color: $color-pink;
+    color: $color-white;
+}
+.label-orange {
+    background-color: $color-orange;
+    color: $color-white;
+}
+.label-blue {
+    background-color: $color-blue;
+    color: $color-white;
+}
+.label-green {
+    background-color: $color-green;
+    color: $color-white;
+}
+
 //= Index
 //== Hero section
 
@@ -181,4 +208,9 @@ p {
 
 #social i.fa-xing:hover {
     color: $color-darkgrey;
+}
+
+//== Open source page
+#opensource .panel-heading .label {
+    font-size: 12px;
 }

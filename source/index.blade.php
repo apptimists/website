@@ -53,7 +53,7 @@
                 <h2 class="mb-20">We <3 <span class="text-highlight">open source</span> projects.</h2>
                 <p>Open source projects are highly valuable because <br class="visible-xs"/>most often they are <br class="hidden-xs"/>the starting point for<br class="visible-xs"/>business opportunities and <br class="hidden-xs"/>incubating new ideas.</p>
                 <p class="mb-30">Open source software means creativity, collaboration and communication <br class="hidden-xs"/>and we enjoy contributing to existing open source projects <br class="hidden-xs"/>as well as open-sourcing <br class="visible-xs"/>our own projects, <br class="hidden-xs"/>like this website.</p>
-                <a href="https://github.com/apptimists/website" class="btn btn-border">Check the source code</a>
+                <a href="{{ $page->asset_prefix }}/opensource" class="btn btn-border">Check out some projects</a>
             </div>
         </div>
     </div>
