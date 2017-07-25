@@ -17,8 +17,8 @@ Vagrant.configure(2) do |config|
   config.ssh.forward_agent = true
 
   # Hostnames
-  config.vm.hostname = "local.apptimists.dev"
-  config.hostsupdater.aliases = ["production.apptimists.dev"]
+  config.vm.hostname = "local.apptimists.com"
+  config.hostsupdater.aliases = ["production.apptimists.com"]
 
   # Private Network
   config.vm.network :private_network, ip: "192.168.50.15"
@@ -29,9 +29,9 @@ Vagrant.configure(2) do |config|
 
   # Provisioning
   config.vm.provision "provision", type: "shell", :path => "provision.sh", args: [
-    "local.apptimists.dev", # Local server name
-    "production.apptimists.dev", # Production server alias
-    "root@apptimists.dev" # Server admin
+    "local.apptimists.com", # Local server name
+    "production.apptimists.com", # Production server alias
+    "server@apptimists.com" # Server admin
   ]
 
   config.vm.provision "no-tty-fix", type: "shell", inline: "sed -i '/tty/!s/mesg n/tty -s \\&\\& mesg n/' /root/.profile"
