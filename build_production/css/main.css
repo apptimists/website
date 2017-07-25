@@ -12906,6 +12906,36 @@ p {
   color: #323A45;
 }
 
+.label-dark {
+  background-color: #323A45;
+  color: #FFFFFF;
+}
+
+.label-light {
+  background-color: #FFFFFF;
+  color: #323A45;
+}
+
+.label-pink {
+  background-color: #DF3DD3;
+  color: #FFFFFF;
+}
+
+.label-orange {
+  background-color: #F27935;
+  color: #FFFFFF;
+}
+
+.label-blue {
+  background-color: #3D82DF;
+  color: #FFFFFF;
+}
+
+.label-green {
+  background-color: #82DF3D;
+  color: #FFFFFF;
+}
+
 #whatwedo-scroller,
 #whatwedo-scroller:hover {
   font-size: 20px;
@@ -12957,6 +12987,10 @@ p {
 
 #social i.fa-xing:hover {
   color: #026466;
+}
+
+#opensource .panel-heading .label {
+  font-size: 12px;
 }
 
 .mt-0 {
