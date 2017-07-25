@@ -1,8 +1,7 @@
 <?php
-/*
- * This file has been generated automatically.
- * Please change the configuration for correct use deploy.
- */
+namespace Deployer;
+
+require 'recipe/common.php';
 
 task('github', function() {
   writeln('Deploy to GitHub pages');
