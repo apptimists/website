@@ -16,11 +16,7 @@
     text-shadow: none;
 }
 
-p {
-    font-weight: 300;
-}
 //= Navbar
-
 .navbar-transparent {
     border-top: 7px solid $color-orange;
 }
@@ -45,6 +41,10 @@ p {
 
 .text-orange {
     color: $color-orange;
+}
+
+.text-serif {
+    font-family: $font-family-serif;
 }
 //= Backgrounds
 
@@ -81,7 +81,7 @@ p {
 
 .bg-team .text-highlight {
     color: $color-white;
-    font-family: $font-family-google;
+    font-family: $font-family-sans-serif;
     font-weight: 600;
     letter-spacing: -0.06em;
 }
@@ -213,4 +213,95 @@ p {
 //== Open source page
 #opensource .panel-heading .label {
     font-size: 12px;
+}
+
+//== Post page
+#article {
+  font-family: $font-family-serif;
+}
+
+#article .post-category {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $color-orange;
+}
+
+#article h1.post-title {
+  font-size: 64px;
+}
+
+#article p.post-meta {
+  color: $color-darkgrey;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#article img.post-author {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+#article .post-text {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+#article .post-text h1, #article .post-text h2, #article .post-text h3 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#article .post-text p:first-of-type:first-letter {
+  initial-letter: 2;
+  -webkit-initial-letter: 2;
+  margin-right: 5px;
+}
+
+#article .post-image {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: -100px;
+  margin-right: -100px;
+  text-align: center;
+}
+
+#article .post-image .img-caption {
+  font-size: 14px;
+  font-style: italic;
+  color: $color-anthracite;
+}
+
+#news h3 {
+  font-family: $font-family-serif;
+  font-style: italic;
+  margin-top: 0;
+}
+
+#news p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+#news p.post-title {
+  font-size: 18px;
+}
+
+#news p.post-meta {
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+#news img.post-author {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+#news a {
+  font-size: 18px;
 }

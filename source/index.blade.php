@@ -1,4 +1,16 @@
 @extends('_layouts.master') @section('body')
+@php $first = $posts->first() @endphp
+<section id="news" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pt-50 pb-50 text-center">
+                <h3 class="post-read">Read our latest article</h3>
+                <p><a href="{{ $first->getPath() }}" class="post-title">{{ $first->title }}</a></p>
+                <p class="post-meta">by <img class="post-author" src="{{ $first->gravatar }}"/> {{ $first->author }} at {{ date('F j, Y', $first->date) }}</p>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="hero" class="bg-team">
     <div class="overlay pt-50">
         <div class="container">

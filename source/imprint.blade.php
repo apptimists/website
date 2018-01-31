@@ -1,5 +1,5 @@
 ---
-title: apptimists - Imprint
+title: Imprint
 ---
 @extends('_layouts.master') @section('body') @include('_layouts.navbar')
 <section class="bg-white pt-30 pb-30">

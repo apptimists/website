@@ -12,11 +12,11 @@ elixir(function(mix) {
     mix.sass('main.scss')
         .browserify('main.js')
         .copy('node_modules/font-awesome/fonts', 'source/fonts')
-        .copy('node_modules/bootstrap-sass/assets/fonts/bootstrap', 'source/fonts')
+        .copy('node_modules/bootstrap-sass/assets/fonts/bootstrap', 'source/fonts/bootstrap')
         .copy('node_modules/flag-icon-css/flags', 'source/flags')
         .exec('./vendor/bin/jigsaw build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
-            proxy: 'http://' + env + '.apptimists.dev',
+            proxy: 'http://' + env + '.apptimists.com',
             files: [ 'build_' + env + '/**/*' ]
         });
 });

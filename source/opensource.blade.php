@@ -1,5 +1,5 @@
 ---
-title: apptimists - Open Source
+title: Open Source
 ---
 @extends('_layouts.master') @section('body') @include('_layouts.navbar')
 <div id="opensource" class="bg-white pt-30 pb-30">

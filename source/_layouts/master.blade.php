@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>{{ isset($page['title']) ? $page['title'] : 'We are the apptimists' }}</title>
+    <title>{{ isset($page['title']) ? $page['title'] . ' @apptimists' : 'We are the apptimists' }}</title>
 
     <link rel="canonical" href="https://www.apptimists.com">
     <link rel="stylesheet" href="{{ $page->asset_prefix }}/css/main.css">
@@ -56,7 +56,7 @@
     </script>
 </head>
 
-<body class="bg-grey">
+<body class="{{ isset($page['body_class']) ? $page['body_class'] : 'bg-grey' }}">
     <a name="top"></a>
     @yield('body')
     <footer class="bg-grey pt-0 pb-30 text-center">
