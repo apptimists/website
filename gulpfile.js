@@ -16,7 +16,8 @@ elixir(function(mix) {
         .copy('node_modules/flag-icon-css/flags', 'source/flags')
         .exec('./vendor/bin/jigsaw build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({
-            proxy: 'http://' + env + '.apptimists.com',
-            files: [ 'build_' + env + '/**/*' ]
+            server: { baseDir: 'build_local' },
+            proxy: null,
+            files: [ 'build_local/**/*' ]
         });
 });

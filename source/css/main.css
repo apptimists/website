@@ -13053,6 +13053,10 @@ button.close {
   text-align: center;
 }
 
+#article .post-image img {
+  margin: 0 auto;
+}
+
 #article .post-image .img-caption {
   font-size: 14px;
   font-style: italic;
