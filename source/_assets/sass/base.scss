@@ -255,7 +255,7 @@
   margin-bottom: 40px;
 }
 
-#article .post-text p:first-of-type:first-letter {
+#article .post-text > p:first-of-type:first-letter {
   initial-letter: 2;
   -webkit-initial-letter: 2;
   margin-right: 5px;
@@ -308,4 +308,17 @@
 
 #news a {
   font-size: 18px;
+}
+
+#scroll-indicator {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1040;
+  border-top: 7px solid $color-anthracite;
+  width: 0;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
 }

@@ -13039,7 +13039,7 @@ button.close {
   margin-bottom: 40px;
 }
 
-#article .post-text p:first-of-type:first-letter {
+#article .post-text > p:first-of-type:first-letter {
   initial-letter: 2;
   -webkit-initial-letter: 2;
   margin-right: 5px;
@@ -13092,6 +13092,16 @@ button.close {
 
 #news a {
   font-size: 18px;
+}
+
+#scroll-indicator {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1040;
+  border-top: 7px solid #323A45;
+  width: 0;
+  transition: width 0.5s ease-in-out;
 }
 
 .mt-0 {

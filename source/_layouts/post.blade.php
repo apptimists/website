@@ -1,4 +1,5 @@
 @extends('_layouts.master') @section('body') @include('_layouts.navbar')
+<div id="scroll-indicator"></div>
  <div id="article" class="bg-white pt-30 pb-30">
    <div class="container">
        <div class="row">
@@ -6,7 +7,7 @@
              <div class="post-head text-center pt-80 pb-80">
                <p class="post-category mb-30">{{ $page->category }}</p>
                <h1 class="post-title mt-40 mb-40">{{ $page->title }}</h1>
-               <p class="post-meta mt-30">by <img class="post-author" src="{{ $page->gravatar }}"/> {{ $page->author }} at {{ date('F j, Y', $page->date) }}</p>
+               <p class="post-meta mt-30">by <img class="post-author" src="{{ $page->gravatar }}"/> <a href="{{ $page->personal }}">{{ $page->author }}</a> at {{ date('F j, Y', $page->date) }}</p>
              </div>
              <div class="post-content">
               <div class="post-text">

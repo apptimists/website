@@ -30,4 +30,13 @@ window.$ = window.jQuery = require('jquery');
         }
 
     });
+    $(window).scroll(function() {
+      var d = $(document).height(),
+              w = $(this).height(),
+              s = Math.round( $(this).scrollTop() / ( d - w ) * 100 );
+
+      $('#scroll-indicator').css({
+         width: s + '%'
+      });
+    });
 })(jQuery);
