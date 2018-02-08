@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="ie6 ie7lte ie8lte"><![endif]-->
+<!--[if IE 7 ]><html lang="en" class="ie7 ie7lte ie8lte"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="ie8 ie8lte"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>What happend so far? @apptimists</title>
+
+    <link rel="canonical" href="https://www.apptimists.com">
+    <link rel="stylesheet" href="/website/css/main.css">
+
+    <script>
+        // Google Analytics
+        var gaProperty = 'UA-30097102-10';
+        if (gaProperty) {
+            (function(w, d, l, h, s) {
+                if (d.cookie.indexOf(s + '=true') > -1) {
+                    w[s] = true;
+                }
+                w.onhashchange = function() {
+                    if (l.href.indexOf("#google_optout") > -1) {
+                        d.cookie = s + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+                        w[s] = true;
+                        if (h.pushState) {
+                            h.pushState(null, null, '#');
+                        } else {
+                            l.hash = '#';
+                        }
+                    }
+                }
+            })(window, document, location, history, 'ga-disable-' + gaProperty);
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', gaProperty, 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('send', 'pageview');
+        }
+    </script>
+</head>
+
+<body class="bg-grey">
+    <a name="top"></a>
+     <nav class="navbar navbar-transparent navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/website/"><i class="fa fa-chevron-left"></i> Back</a>
+        </div>
+    </div>
+</nav>
+<div id="scroll-indicator"></div>
+ <div id="article" class="bg-white pt-30 pb-30">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-10 col-md-offset-1">
+             <div class="post-head text-center pt-80 pb-80">
+               <p class="post-category mb-30">Super awesome time</p>
+               <h1 class="post-title mt-40 mb-40">What happend so far?</h1>
+               <p class="post-meta mt-30">by <img class="post-author" src="https://secure.gravatar.com/avatar/7bfdf8bd06bad121d9766b64617a1499"/> <a href="http://johannesberdin.de">Johannes Berdin</a> at February 9, 2018</p>
+             </div>
+             <div class="post-content">
+              <div class="post-text">
+                <p>You have never read an article by the apptimists because this is actually the first one. But like I started programming around the millenium I'll give it a try. Hopefully I'll learn nice techniques or find some writing frameworks to share some of our thoughts in a manner that you are not bored after the first sentence.</p>
+<p>If you've never heard of the apptimists we specialized in building small applications mostly in the fields of location-based services, advocating startups in the region of <a href="https://www.saarland.de">Saarland</a> and contributing to some open-source projects. We are a pretty small team of nerds and the creators of <a href="https://www.staumobil.com">StauMobil</a>. The free app for iOS and Android shows traffic incidents like congestions, constructions and road closures in Germany and is being used by more than 4 million times in the end of 2017.</p>
+<p>This is the first article of an undetermined number of writings about the unfiltered, uncensored and unsparing time at the apptimists, in short: we are going to share our journey for the almost last 7 years. So fasten your seatbelt, lean back and enjoy!</p>
+<h2>Episode 1: The beginning</h2>
+<p>It all started in 2011 when Andreas (short: Andy), Dominik (short: Domme) and I studied Computer Science at the Saarland University.
+To give a short historical background. These are five facts from that year:</p>
+<ul>
+<li>Apple released the iPhone 4s</li>
+<li>CERN scientists found neutrinos which are 60 nanoseconds quicker than light</li>
+<li>Microsoft launched its cloud-based service Office 365</li>
+<li>You got some Ice Cream Sandwich with Google's Android 4.0</li>
+<li>The world population reached 7 billion inhabitants</li>
+</ul>
+<p>Like all students we loved to party but there was no platform where you could check what's going on in your location and we set out to fill that gap in information retrieval for party people like us - I'm actually not quite sure if there is such an app out now.</p>
+<p>It was an amazing time talking to club owners, event organizers, friends and family but as complete rookies in starting a business, doing sales &amp; promotion and building a complex piece of software we did face a typical problem all online platforms do have:</p>
+<h3>The Hen-Egg-Problem</h3>
+<p>Actually there are <em>just</em> two questions we had to answer:</p>
+<ul>
+<li>How to attract people to use our app if there is no relevant data for them yet?</li>
+<li>How to bring (other) people to the platform to provide that data?</li>
+</ul>
+<p>So we came up with the idea to aggregate all party event information on the web we could find put them in a database, enrich them with some data mining, geolocate them and provide a neatly list of parties all over the country within an app for iOS and Android. Sounds tough? It was! I would say that this is the engineer's path of solving such a problem and we could have come up with some other ways like creating <strong>demand</strong> for such an app by a convincing presentation and generating traffic to a landing page through cool web ads, awesome club tours and sending weekly update mails to the audience. That's a classical sales funnel for consumer-facing products and it had tremendously reduced consumption of resources at product development - or rather data collection.</p>
+<div class="post-image">
+  <img class="img-responsive" src="/img/posts/1/nerds-in-paris.jpg" alt="On our way to the EIT ICT Labs in Paris" width="1024" height="765">
+  <span class="img-caption">"Nerds in Paris" - On our way to EIT ICT Labs</span>
+</div>
+<p>Why is demand the only bold word in this article? It will sound like a truism but it's most important to not overshoot your idea and focus on functionality your users want. I saw so much must-have features on our roadmap we did not double-check with the people and we spend hours in implementation and testing just to shut them down in the next update. I do not say to not build something you like. That should be the number one motivation to work on your idea. But beside the fact that you will not make any money out of that useless feature it is demotivating in not getting the expected respect for your work.</p>
+<p>I think we did a good job in crawling the web for event information but still had to tackle the business part of our idea and how shall I put it. Our first cold calls were frustrating. Probably even more frustrating for the people on the other end of the line, haha:</p>
+<blockquote>
+<p>Hey, we are Andy, Domme and Johnny, we have that idea!</p>
+</blockquote>
+<p>Beep beep beep! It's definitely more professional to have a good name so we switched our intro and that's where our project Moveyaa and later the apptimists were born.</p>
+<p>Alright folks I hope you enjoyed reading the first episode - others will follow. I'll upload some code samples on GitHub to demonstrate how we wired together Facebook's <a href="https://developers.facebook.com/docs/graph-api/reference/event/">Graph API</a> to get events.</p>
+<p>Would be pleasure to have a chat with you, so feel free to contact us!</p>              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+                      </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-grey pt-0 pb-30 text-center">
+        <div class="container">
+
+            <hr class="mt-30 mb-30">
+
+            <div class="row hidden-xs">
+                <div class="col-md-4 text-left">
+                    <ul class="list-inline">
+                        <li><a href="/website/imprint">Imprint</a></li>
+                        <li><a href="/website/privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p><span class="flag-icon flag-icon-de flag-icon-squared"></span> Made with <i class="fa fa-coffee"></i> in Germany.</p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <p><a href="#top" class="btn btn-xs btn-border-grey">To the top</a></p>
+                </div>
+            </div>
+            <div class="row visible-xs">
+                <div class="col-xs-12 text-center">
+                    <ul class="list-inline">
+                        <li><a href="/website/imprint">Imprint</a></li>
+                        <li><a href="/website/privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 text-center">
+                    <p><span class="flag-icon flag-icon-de flag-icon-squared"></span> Made with <i class="fa fa-coffee"></i> in Germany.</p>
+                </div>
+                <div class="col-xs-12 text-center">
+                    <p><a href="#top" class="btn btn-xs btn-border-grey">To the top</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="/website/js/main.js"></script>
+</body>
+
+</html>
