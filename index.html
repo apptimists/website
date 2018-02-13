@@ -15,7 +15,12 @@
     <title>We are the apptimists</title>
 
     <link rel="canonical" href="https://www.apptimists.com">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="http://www.apptimists.com/css/main.css">
+
+    <meta property="og:url" content="http://www.apptimists.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="We are the apptimists" />
+    <meta property="og:image" content="http://www.apptimists.com/img/opengraph.jpg" />
 
     <script>
         // Google Analytics
@@ -58,7 +63,18 @@
 
 <body class="bg-grey">
     <a name="top"></a>
-    <section id="hero" class="bg-team">
+    <section id="news" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pt-50 pb-50 text-center">
+                <h3 class="post-read">Read our latest article</h3>
+                <p><a href="http://www.apptimists.com/posts/1-what-happend-so-far" class="post-title">What happend so far?</a></p>
+                <p class="post-meta">by <img class="post-author" src="https://secure.gravatar.com/avatar/7bfdf8bd06bad121d9766b64617a1499"/> Johannes Berdin at February 9, 2018</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="hero" class="bg-team">
     <div class="overlay pt-50">
         <div class="container">
             <div class="row">
@@ -98,7 +114,7 @@
             </div>
             <div class="col-md-4">
               <div class="img-holder">
-                <img class="img-responsive" src="/img/staumobil.png">
+                <img class="img-responsive" src="http://www.apptimists.com/img/staumobil.png">
               </div>
             </div>
         </div>
@@ -112,7 +128,7 @@
                 <h2 class="mb-20">We <3 <span class="text-highlight">open source</span> projects.</h2>
                 <p>Open source projects are highly valuable because <br class="visible-xs"/>most often they are <br class="hidden-xs"/>the starting point for<br class="visible-xs"/>business opportunities and <br class="hidden-xs"/>incubating new ideas.</p>
                 <p class="mb-30">Open source software means creativity, collaboration and communication <br class="hidden-xs"/>and we enjoy contributing to existing open source projects <br class="hidden-xs"/>as well as open-sourcing <br class="visible-xs"/>our own projects, <br class="hidden-xs"/>like this website.</p>
-                <a href="/opensource" class="btn btn-border">Check out some projects</a>
+                <a href="http://www.apptimists.com/opensource" class="btn btn-border">Check out some projects</a>
             </div>
         </div>
     </div>
@@ -165,8 +181,8 @@
             <div class="row hidden-xs">
                 <div class="col-md-4 text-left">
                     <ul class="list-inline">
-                        <li><a href="/imprint">Imprint</a></li>
-                        <li><a href="/privacy">Privacy</a></li>
+                        <li><a href="http://www.apptimists.com/imprint">Imprint</a></li>
+                        <li><a href="http://www.apptimists.com/privacy">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 text-center">
@@ -179,8 +195,8 @@
             <div class="row visible-xs">
                 <div class="col-xs-12 text-center">
                     <ul class="list-inline">
-                        <li><a href="/imprint">Imprint</a></li>
-                        <li><a href="/privacy">Privacy</a></li>
+                        <li><a href="http://www.apptimists.com/imprint">Imprint</a></li>
+                        <li><a href="http://www.apptimists.com/privacy">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 text-center">
@@ -192,7 +208,10 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript">
+    window.baseUrl = 'http://www.apptimists.com';
+    </script>
+    <script type="text/javascript" src="http://www.apptimists.com/js/main.js"></script>
 </body>
 
 </html>
