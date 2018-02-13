@@ -7,6 +7,7 @@ personal: http://johannesberdin.de
 date: 2018-02-09
 category: Super awesome time
 section: content
+opengraph: /img/posts/1/opengraph.jpg
 ---
 
 You have never read an article by the apptimists because this is actually the first one. But like I started programming around the millenium I'll give it a try. Hopefully I'll learn nice techniques or find some writing frameworks to share some of our thoughts in a manner that you are not bored after the first sentence.
@@ -38,7 +39,7 @@ Actually there are *just* two questions we had to answer:
 So we came up with the idea to aggregate all party event information on the web we could find put them in a database, enrich them with some data mining, geolocate them and provide a neatly list of parties all over the country within an app for iOS and Android. Sounds tough? It was! I would say that this is the engineer's path of solving such a problem and we could have come up with some other ways like creating **demand** for such an app by a convincing presentation and generating traffic to a landing page through cool web ads, awesome club tours and sending weekly update mails to the audience. That's a classical sales funnel for consumer-facing products and it had tremendously reduced consumption of resources at product development - or rather data collection.
 
 <div class="post-image">
-  <img class="img-responsive" src="/img/posts/1/nerds-in-paris.jpg" alt="On our way to the EIT ICT Labs in Paris" width="1024" height="765">
+  <img class="img-responsive" src="#BASEURL/img/posts/1/nerds-in-paris.jpg" alt="On our way to the EIT ICT Labs in Paris" width="1024" height="765">
   <span class="img-caption">"Nerds in Paris" - On our way to EIT ICT Labs</span>
 </div>
 
@@ -48,8 +49,8 @@ I think we did a good job in crawling the web for event information but still ha
 
 > Hey, we are Andy, Domme and Johnny, we have that idea!
 
-Beep beep beep! It's definitely more professional to have a good name so we switched our intro and that's where our project Moveyaa and later the apptimists were born.
+Beep beep beep!
 
-Alright folks I hope you enjoyed reading the first episode - others will follow. I'll upload some code samples on GitHub to demonstrate how we wired together Facebook's [Graph API](https://developers.facebook.com/docs/graph-api/reference/event/) to get events.
+It's obviously more professional to start a conversation with a brand or product name because it transports completeness thus we changed our intro and that's where our project Moveyaa and later the apptimists were born and this will be the story of the next article. I hope you enjoyed reading the first episode and I'll upload some code samples on GitHub to demonstrate how we wired together Facebook's [Graph API](https://developers.facebook.com/docs/graph-api/reference/event/) to get events.
 
-Would be pleasure to have a chat with you, so feel free to contact us!
+Would be a pleasure to have a chat with you, so feel free to contact us!

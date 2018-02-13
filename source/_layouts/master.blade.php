@@ -15,11 +15,16 @@
     <title>{{ isset($page['title']) ? $page['title'] . ' @apptimists' : 'We are the apptimists' }}</title>
 
     <link rel="canonical" href="https://www.apptimists.com">
-    <link rel="stylesheet" href="{{ $page->asset_prefix }}/css/main.css">
+    <link rel="stylesheet" href="{{ $page->pageUrl('/css/main.css') }}">
+
+    <meta property="og:url" content="{{ $page->getUrl() }}" />
+    <meta property="og:type" content="{{ isset($page['opengraph']) ? 'article' : 'website' }}" />
+    <meta property="og:title" content="{{ isset($page['title']) ? $page['title'] . ' @apptimists' : 'We are the apptimists' }}" />
+    <meta property="og:image" content="{{ $page->pageUrl(isset($page['opengraph']) ? $page['opengraph'] : '/img/opengraph.jpg') }}" />
 
     <script>
         // Google Analytics
-        var gaProperty = '{{ $page->google_analytics }}';
+        var gaProperty = '{{ $page->googleAnalytics }}';
         if (gaProperty) {
             (function(w, d, l, h, s) {
                 if (d.cookie.indexOf(s + '=true') > -1) {
@@ -67,8 +72,8 @@
             <div class="row hidden-xs">
                 <div class="col-md-4 text-left">
                     <ul class="list-inline">
-                        <li><a href="{{ $page->asset_prefix }}/imprint">Imprint</a></li>
-                        <li><a href="{{ $page->asset_prefix }}/privacy">Privacy</a></li>
+                        <li><a href="{{ $page->pageUrl('/imprint') }}">Imprint</a></li>
+                        <li><a href="{{ $page->pageUrl('/privacy') }}">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 text-center">
@@ -81,8 +86,8 @@
             <div class="row visible-xs">
                 <div class="col-xs-12 text-center">
                     <ul class="list-inline">
-                        <li><a href="{{ $page->asset_prefix }}/imprint">Imprint</a></li>
-                        <li><a href="{{ $page->asset_prefix }}/privacy">Privacy</a></li>
+                        <li><a href="{{ $page->pageUrl('/imprint') }}">Imprint</a></li>
+                        <li><a href="{{ $page->pageUrl('/privacy') }}">Privacy</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 text-center">
@@ -94,7 +99,10 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="{{ $page->asset_prefix }}/js/main.js"></script>
+    <script type="text/javascript">
+    window.baseUrl = '{{ $page->baseUrl }}';
+    </script>
+    <script type="text/javascript" src="{{ $page->pageUrl('/js/main.js') }}"></script>
 </body>
 
 </html>

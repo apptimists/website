@@ -10399,14 +10399,24 @@ window.$ = window.jQuery = require('jquery');
             document.location = href;
         }
     });
+
+    /**
+     * Pretty simple scroll indicator
+     */
     $(window).scroll(function () {
         var d = $(document).height(),
             w = $(this).height(),
             s = Math.round($(this).scrollTop() / (d - w) * 100);
 
-        $('#scroll-indicator').css({
-            width: s + '%'
-        });
+        $('#scroll-indicator').css({ width: s + '%' });
+    });
+
+    /**
+     * Replace base url for images from Markdown content
+     */
+    $('img').each(function () {
+        var a = $(this).attr('src');
+        $(this).attr('src', a.replace('#BASEURL', window.baseUrl));
     });
 })(jQuery);
 

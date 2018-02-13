@@ -2,6 +2,6 @@
 
 return [
     'production' => true,
-    'asset_prefix' => '/website',
-    'google_analytics' => 'UA-30097102-10',
+    'baseUrl' => 'https://apptimists.github.io/website',
+    'googleAnalytics' => 'UA-30097102-10',
 ];

@@ -2,11 +2,14 @@
 
 return [
     'production' => false,
-    'asset_prefix' => '',
-    'google_analytics' => '',
+    'baseUrl' => 'http://localhost:3000',
+    'googleAnalytics' => '',
     'collections' => [
         'posts' => [
             'path' => 'posts/{filename}',
         ],
-    ]
+    ],
+    'pageUrl' => function($page, $url) {
+        return stripslashes($page->baseUrl . $url);
+    }
 ];

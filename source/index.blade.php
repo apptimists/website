@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12 pt-50 pb-50 text-center">
                 <h3 class="post-read">Read our latest article</h3>
-                <p><a href="{{ $first->getPath() }}" class="post-title">{{ $first->title }}</a></p>
+                <p><a href="{{ $page->pageUrl($first->getPath()) }}" class="post-title">{{ $first->title }}</a></p>
                 <p class="post-meta">by <img class="post-author" src="{{ $first->gravatar }}"/> {{ $first->author }} at {{ date('F j, Y', $first->date) }}</p>
             </div>
         </div>
@@ -51,7 +51,7 @@
             </div>
             <div class="col-md-4">
               <div class="img-holder">
-                <img class="img-responsive" src="{{ $page->asset_prefix }}/img/staumobil.png">
+                <img class="img-responsive" src="{{ $page->pageUrl('/img/staumobil.png') }}">
               </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                 <h2 class="mb-20">We <3 <span class="text-highlight">open source</span> projects.</h2>
                 <p>Open source projects are highly valuable because <br class="visible-xs"/>most often they are <br class="hidden-xs"/>the starting point for<br class="visible-xs"/>business opportunities and <br class="hidden-xs"/>incubating new ideas.</p>
                 <p class="mb-30">Open source software means creativity, collaboration and communication <br class="hidden-xs"/>and we enjoy contributing to existing open source projects <br class="hidden-xs"/>as well as open-sourcing <br class="visible-xs"/>our own projects, <br class="hidden-xs"/>like this website.</p>
-                <a href="{{ $page->asset_prefix }}/opensource" class="btn btn-border">Check out some projects</a>
+                <a href="{{ $page->pageUrl('/opensource') }}" class="btn btn-border">Check out some projects</a>
             </div>
         </div>
     </div>
