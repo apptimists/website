@@ -2,6 +2,6 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'http://www.apptimists.com',
+    'baseUrl' => 'https://www.apptimists.com',
     'googleAnalytics' => 'UA-30097102-10',
 ];
