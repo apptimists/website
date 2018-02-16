@@ -47,4 +47,9 @@ window.$ = window.jQuery = require('jquery');
         var a = $(this).attr('src');
         $(this).attr('src', a.replace('#BASEURL', window.baseUrl));
     });
+
+    /**
+     * This is needed for all non-Safari browsers to show drop caps
+     */
+    $('#article .post-text p').first().addClass('first');
 })(jQuery);
