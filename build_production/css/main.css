@@ -13039,10 +13039,13 @@ button.close {
   margin-bottom: 40px;
 }
 
-#article .post-text > p:first-of-type:first-letter {
+#article .post-text p.first:first-letter {
   initial-letter: 2;
   -webkit-initial-letter: 2;
   margin-right: 5px;
+  float: left;
+  font-size: 64px;
+  line-height: 1;
 }
 
 #article .post-image {
