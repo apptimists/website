@@ -4,18 +4,18 @@
 <!--[if IE 8 ]><html lang="en" class="ie8 ie8lte"><![endif]-->
 <!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
 <!--[if !(IE)]><!-->
-<html lang="en">
+<html lang="en" xmlns:og="https://ogp.me/ns#">
 <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>{{ isset($page['title']) ? $page['title'] . ' @apptimists' : 'We are the apptimists' }}</title>
 
-    <link rel="canonical" href="https://www.apptimists.com">
-    <link rel="stylesheet" href="{{ $page->pageUrl('/css/main.css') }}">
+    <link rel="canonical" href="https://www.apptimists.com" />
+    <link rel="stylesheet" href="{{ $page->pageUrl('/css/main.css') }}" />
 
     <meta property="og:url" content="{{ $page->getUrl() }}" />
     <meta property="og:type" content="{{ isset($page['opengraph']) ? 'article' : 'website' }}" />
@@ -62,7 +62,7 @@
 </head>
 
 <body class="{{ isset($page['body_class']) ? $page['body_class'] : 'bg-grey' }}">
-    <a name="top"></a>
+    <a id="top"></a>
     @yield('body')
     <footer class="bg-grey pt-0 pb-30 text-center">
         <div class="container">
@@ -99,10 +99,10 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript">
+    <script>
     window.baseUrl = '{{ $page->baseUrl }}';
     </script>
-    <script type="text/javascript" src="{{ $page->pageUrl('/js/main.js') }}"></script>
+    <script src="{{ $page->pageUrl('/js/main.js') }}"></script>
 </body>
 
 </html>

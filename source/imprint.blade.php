@@ -20,7 +20,7 @@ title: Imprint
                 <p>apptimists UG (haftungsbeschränkt)<br> Starterzentrum 1<br> Universität des Saarlandes<br> 66123 Saarbrücken<br> Deutschland
                 </p>
                 <p>Telefon: +49 (0) 681 302 649 61<br>
-                    <a href="mailto: hello@apptimists.com">hello@apptimists.com</a><br>
+                    <a href="mailto:hello@apptimists.com">hello@apptimists.com</a><br>
                     <a href="https://www.apptimists.com">www.apptimists.com</a></p>
                 <p class="text-bold">Handelsregister</p>
                 <p>Registergericht: Amtsgericht Saarbrücken<br> Registernummer: HRB 100148</p>

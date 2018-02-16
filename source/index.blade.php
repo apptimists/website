@@ -62,7 +62,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class="mb-20">We <3 <span class="text-highlight">open source</span> projects.</h2>
+                <h2 class="mb-20">We &lt;3 <span class="text-highlight">open source</span> projects.</h2>
                 <p>Open source projects are highly valuable because <br class="visible-xs"/>most often they are <br class="hidden-xs"/>the starting point for<br class="visible-xs"/>business opportunities and <br class="hidden-xs"/>incubating new ideas.</p>
                 <p class="mb-30">Open source software means creativity, collaboration and communication <br class="hidden-xs"/>and we enjoy contributing to existing open source projects <br class="hidden-xs"/>as well as open-sourcing <br class="visible-xs"/>our own projects, <br class="hidden-xs"/>like this website.</p>
                 <a href="{{ $page->pageUrl('/opensource') }}" class="btn btn-border">Check out some projects</a>
@@ -104,7 +104,7 @@
                 </p>
                 <p>
                     <span class="fa fa-envelope"></span><br>
-                    <a href="mailto: hello@apptimists.com">Guten Tag!</a>
+                    <a href="mailto:hello@apptimists.com">Guten Tag!</a>
                 </p>
             </div>
         </div>
