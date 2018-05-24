@@ -74,6 +74,7 @@
                     <ul class="list-inline">
                         <li><a href="{{ $page->pageUrl('/imprint') }}">Imprint</a></li>
                         <li><a href="{{ $page->pageUrl('/privacy') }}">Privacy</a></li>
+                        <li><a href="{{ $page->pageUrl('/disclaimer') }}">Disclaimer</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 text-center">
@@ -88,6 +89,7 @@
                     <ul class="list-inline">
                         <li><a href="{{ $page->pageUrl('/imprint') }}">Imprint</a></li>
                         <li><a href="{{ $page->pageUrl('/privacy') }}">Privacy</a></li>
+                        <li><a href="{{ $page->pageUrl('/disclaimer') }}">Disclaimer</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 text-center">
